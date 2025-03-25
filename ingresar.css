@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(90deg,indigo, rgb(178, 140, 254));
+}
+
+.principalIngresar{
+    width: 100%;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volver{
+    width: 500px;
+    height: 50px;
+    background-color: indigo;
+    border-radius: 50px 50px 1px 1px;
+}
+
+.flecha{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Ingresar{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 5px 5px 5px indigo;
+    background-color: rgb(211, 149, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoIngresar{
+    border-radius: 45px 45px 45px 45px;
+    position: relative;
+    top: 15px;
+    margin-bottom: 15px;
+}
+
+.cajaTexto{
+    width: 400px;
+    height: 50px;
+    font-family: Berlin Sans FB;
+    font-size: 20px;
+    color: black;
+    margin: 8px;
+    border-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    display: flex;
+
+}
+
+.botonIngresar{
+    width: 150px;
+    padding: 10px;
+    background-color: indigo;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Berlin Sans FB;
+    margin-left: 140px;
+}
